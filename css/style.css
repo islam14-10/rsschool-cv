@@ -1,0 +1,17 @@
+div {
+  margin-left: 120px;
+  font-weight: bolder;
+}
+body {
+  background: blanchedalmond;
+}
+.line {
+  border-bottom: 3px solid #00000036;
+  width: 1300px;
+}
+div h2 {
+  border-bottom: 3px solid #00000036;
+  width: 1300px;
+  padding: 0px 0px 20px;
+  color: blue;
+}
