@@ -3,7 +3,7 @@
 # My Contact Info:
 
 - Phone: 0636810046
-- discord <islam1410>
+- discord (islam1410)
 
 # Summary
 
