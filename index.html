@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/05bb7889f3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="contacts" class="nav_link">My Contact Info</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Summary" class="nav_link">Summary</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Skills" class="nav_link">Skills</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Code-examples" class="nav_link">Code examples</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Education" class="nav_link">Education</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Experience" class="nav_link">Experience</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#English" class="nav_link">English</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </nav>
+
+        <div class="head">
+            <div class="container">
+                <div class="user">
+                    <img class="user_img" src="assets/avatars-000679329947-en23yx-t500x500.jpg" alt="Malsi">
+                    <h1>Islam Magomedov</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="column">
+                <section class="contacts section">
+                    <h2 class="info-title" id="contacts">Contacts</h2>
+                    <ul class="contacts_wrapper">
+                        <li class="contacts_bloc">
+                            <div class="contacts_img contacts_img_discord"></div>
+                            <a href="#" class="contacts_text">islam1410</a>
+                        </li>
+                        <li class="contacts_bloc">
+                            <div class="contacts_img contacts_img_phone"></div>
+                            <a href="tel:+380636810046" class="contacts_text">+380636810046</a>
+                        </li>
+                        <li class="contacts_bloc">
+                            <div class="contacts_img contacts_img_github"></div>
+                            <a href="http://github.com/islam14-10" target="_blank" class="contacts_text">github.com/islam14-10</a>
+                        </li>
+                        <li class="contacts_bloc">
+                            <div class="contacts_img contacts_img_gmail"></div>
+                            <a href="mailto:zaira161190@gmail.com" class="contacts_text">zaira161190@gmail.com</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="summary section">
+                    <h2 class="info-title" id="Summary">Summary</h2>
+                    <h3>
+                        The city of Odessa was born and raised in Ukraine, I studied for
+                        two months myself, there is a desire to reach the end !!
+                    </h3>
+                </section>
+
+                <section class="skills section">
+                    <h2 class="info-title" id="Skills">Skills</h2>
+                    <ul class="skills_wrapper">
+                        <li class="skills_bloc">
+                            <p class="skills_text skills_text_1">HTML</p>
+                            <ul class="skills_list">
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                            </ul>
+                        </li>
+                        <li class="skills_bloc">
+                            <p class="skills_text skills_text_2">
+                                CSS (Framework Bootstrap, Preprocessor SCSS).
+                            </p>
+                            <ul class="skills_list">
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                              </ul>
+                        </li>
+                        <li class="skills_bloc">
+                            <p class="skills_text skills_text_3">
+                              Figma(for web development)
+                            </p>
+                            <ul class="skills_list">
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                            </ul>
+                          </li>
+                          <li class="skills_bloc">
+                            <p class="skills_text skills_text_4">VSCode</p>
+                            <ul class="skills_list">
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                                <li class="skills_item skills_item_gray"></li>
+                            </ul>
+                          </li>
+                    </ul>
+                </section>
+
+                <section class="code section">
+                    <h2 class="info-title" id="Code-examples">Code examples</h2>
+                    <pre>
+                        <code class="code_js">function multiply(a, b){
+                          a * b
+                        }
+                        
+                        const assert = require("chai").assert;
+                        
+                        describe("Multiply", () => {
+                          it("fixed tests", () => {
+                            assert.strictEqual(multiply(1,1), 1);
+                            assert.strictEqual(multiply(2,1), 2);
+                            assert.strictEqual(multiply(2,2), 4);
+                            assert.strictEqual(multiply(3,5), 15);
+                          });
+                        });
+                      
+                      </code>
+                      </pre>
+                  </section>
+
+                  <section class="education section">
+                    <h2 class="info-title" id="Education">Education</h2>
+                    <h3 class="education_shool">medium</h3>
+                  </section>
+
+                  <section class="experience section">
+                    <h2 class="info-title" id="Experience">Experience</h2>
+                    <h3 class="experience_info">
+                      I have no experience, only two months of self-study
+                    </h3>
+                  </section>
+
+                  <section class="english section">
+                    <h2 class="info-title" id="English">English</h2>
+                    <h3 class="english_info">
+                      I don't know much, I started learning English through the Duolingo
+                      app
+                    </h3>
+                  </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container container_footer">
+            <div class="footer_bloc">
+                2024
+                <a href="http://github.com/islam14-10" target="_blank" class="footer_social"></a>
+            </div>
+
+            <a href="https://rs.school/courses/javascript" target="_blank" class="footer_rsshool"></a>
+        </div>
+    </footer>
+</body>
+</html>
