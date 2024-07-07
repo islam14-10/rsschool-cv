@@ -105,3 +105,117 @@ header
         transition: 2s all
         &:hover
             color: orange
+.skills
+    &_wrapper
+        list-style: none
+    &_bloc
+        display: flex
+        align-items: center
+        margin-bottom: 20px
+    &_text
+        width: 110px
+        margin-right: 15px
+        font-weight: 500
+        &_1
+            color: orange
+        &_2
+            color: blue
+        &_3
+            color: #4d693d
+        &_4
+            color: #2196f3
+    &_list
+        display: flex
+        align-items: center
+        list-style: none
+    &_item
+        width: 10px
+        height: 10px
+        background-color: rebeccapurple
+        border-radius: 50%
+        margin-right: 5px
+        transition: all .3s linear
+        &_gray
+            background: #999999
+            &:last-child
+                margin-right: 0
+        &:hover
+            transform: scale(1.3)
+.footer
+    background: rgba(120,144,156,.8196078431)
+    padding: 20px
+    &_bloc
+        display: flex
+        align-items: center
+    &_social
+        background: url('../assets/icons/github.svg') center (center / cover) no-repeat
+        width: 30px
+        height: 30px
+        display: block
+        margin-left: 15px
+    &_rsshool
+        background: url('../assets/img/rs_school_js.svg') center (center / cover) no-repeat
+        display: block
+        width: 121px
+        height: 45px
+.container_footer
+    display: flex
+    justify-content: space-around
+
+@media (max-width: 768px)
+    .main
+        .info-title
+            justify-content: center
+            display: flex
+        .contacts_bloc
+            justify-content: center
+        .skills_bloc
+            justify-content: center
+        h3
+            text-align: center
+    .section
+        width: 100%
+    header
+        position: relative
+        .nav
+            height: 60px
+            background: rgba(120,144,156,.8196078431)
+            position: relative
+            &_list
+                position: fixed
+                width: 50%
+                left: -100%
+                align-items: center
+                flex-direction: column
+                justify-content: center
+                height: 100vh
+                background-color: rgba(0, 0, 0, 0.8)
+                padding: 20px 15px
+                top: 0
+                transition: 1.4s all
+                &_active
+                    left: 0
+            &_item
+                margin: 10px 0
+        .hamburger
+            width: 26px
+            height: 12px
+            position: absolute
+            right: 15px
+            top: 50%
+            transform: translateY(-50%)
+            span
+                width: 100%
+                height: 2px
+                background: #fff
+                display: block
+                margin-bottom: 2px
+            &_active
+                span
+                    margin-bottom: -2px
+                    &:nth-child(1)
+                        transform: translateY(3px) rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: translateY(3px) rotate(45deg)
