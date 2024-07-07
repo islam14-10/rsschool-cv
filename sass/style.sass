@@ -1,0 +1,36 @@
+body
+    font-family: "roboto", sans-serif
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+html
+    scroll-behavior: smooth
+.container
+    max-width: 1440px
+    margin: 0 auto
+header
+    background: #78909cd1
+    min-height: 80px
+    .nav
+        padding: 20px 120px
+        &_list
+            display: flex
+            justify-content: space-between
+            list-style-type: none
+            margin: 0
+        &_item
+            &:hover
+                border: 2px solid green
+                border-radius: 40%
+                transition: 2s all
+        &_link
+                text-decoration: none
+                color: #FAFAFA
+                font-size: 25px
+                transition: 2s all
+                font-weight: 700
+                &:hover
+                    font-size: 36px
+                    transition: 2s all
+                    color: red
